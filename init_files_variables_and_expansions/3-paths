@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv | tr : $''' | tr : $''' | grep / | wc -l 
+printenv | grep -c '/' 
